@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "total_lines": 70,
+    "unsafe_lines_found": 5,
+    "emails_found": 10,
+    "credit_cards_found": 5,
+    "credit_cards_that_pass_luhn_check": 3,
+    "phone_numbers_found": 7,
+    "urls_found": 4,
+    "hashtags_found": 7
+  },
+  "safety_report": {
+    "note": "Lines listed here were removed before extraction. Only the line number and the type of problem is kept, not the actual unsafe text.",
+    "unsafe_lines": [
+      {
+        "line_number": 48,
+        "problems": [
+          "script_tag"
+        ]
+      },
+      {
+        "line_number": 49,
+        "problems": [
+          "sql_command"
+        ]
+      },
+      {
+        "line_number": 50,
+        "problems": [
+          "template_code"
+        ]
+      },
+      {
+        "line_number": 51,
+        "problems": [
+          "folder_escape"
+        ]
+      },
+      {
+        "line_number": 52,
+        "problems": [
+          "null_byte"
+        ]
+      }
+    ]
+  },
+  "emails": [
+    {
+      "masked": "b*************t@alueducation.com",
+      "category": "alu_official"
+    },
+    {
+      "masked": "g***********a@alueducation.com",
+      "category": "alu_official"
+    },
+    {
+      "masked": "j********o@alumni.alueducation.com",
+      "category": "alu_alumni"
+    },
+    {
+      "masked": "j***********o@si.alueducation.com",
+      "category": "alu_si"
+    },
+    {
+      "masked": "j*************9@gmail.com",
+      "category": "external"
+    },
+    {
+      "masked": "n******y@billing.alueducation.com",
+      "category": "external"
+    },
+    {
+      "masked": "p********k@alueducation.com",
+      "category": "alu_official"
+    },
+    {
+      "masked": "p********k@alumni.alueducation.com",
+      "category": "alu_alumni"
+    },
+    {
+      "masked": "s***f@si.alueducation",
+      "category": "external"
+    },
+    {
+      "masked": "s*****t@alumni.alueducation.co",
+      "category": "external"
+    }
+  ],
+  "credit_cards": [
+    {
+      "masked": "**** **** **** 1111",
+      "luhn_valid": true
+    },
+    {
+      "masked": "**** **** **** 0004",
+      "luhn_valid": true
+    },
+    {
+      "masked": "**** **** **** 0005",
+      "luhn_valid": true
+    },
+    {
+      "masked": "**** **** **** 9010",
+      "luhn_valid": false
+    },
+    {
+      "masked": "**** **** **** 3456",
+      "luhn_valid": false
+    }
+  ],
+  "phone_numbers": [
+    "0712-345-678",
+    "078-999-2211",
+    "2026-00981",
+    "250 788 123 456",
+    "3782 822463",
+    "415-555-0198",
+    "722-556-890"
+  ],
+  "urls": [
+    "http://support.alueducation.com/",
+    "https://events.alueducation.com/career-fair-2026?id=88#agenda",
+    "https://portal.alueducation.com/payments?student=10234&retry=true",
+    "www.alueducation.com/invoices/00981.pdf"
+  ],
+  "hashtags": [
+    "#ALUCareerFair",
+    "#ALUFinance",
+    "#ALUHelp",
+    "#ClassOf2026",
+    "#PaymentConfirmed",
+    "#TuitionIssues",
+    "#agenda"
+  ],
+  "time_12_hour_format": [
+    "09:15AM",
+    "5:00 PM",
+    "6:00 PM",
+    "9:00 AM",
+    "9:30 AM"
+  ],
+  "time_24_hour_format": [
+    "07:45",
+    "14:05",
+    "18:30",
+    "21:00"
+  ]
+}
