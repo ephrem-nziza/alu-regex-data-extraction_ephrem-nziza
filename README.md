@@ -6,9 +6,6 @@ and times. Before it trusts any of that text, it checks it for unsafe
 patterns first, and once it finds sensitive data, it hides most of it
 before saving the results.
 
-Rename this folder to `alu-regex-data-extraction_ephrem-nziza`
-before you submit it.
-
 # Folder layout
 
 alu-regex-data-extraction_ephrem-nziza/
